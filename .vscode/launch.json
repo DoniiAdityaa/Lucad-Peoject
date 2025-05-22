@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "jepad",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "0F542023-D99E-48FC-96F4-B76662EE46B1"
+        },
+        {
+            "name": "jepad samsung",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "deviceId": "51b995a2"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": [
+                "jepad",
+                "jepad samsung"
+            ]
+        }
+    ]
+}
